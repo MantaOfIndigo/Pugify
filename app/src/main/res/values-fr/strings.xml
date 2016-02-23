@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pugify</string>
+
+    <string name="edit_message">Entrez un message</string>
+    <string name="button_send">envoyer</string>
+    <string name="action_settings">paramètres</string>
+    <string name="title_activity_main">Pugify principal</string>
+    <string name="title_activity_display_message">Mon message</string>
+    <string name="title_activity_code_message">Affichage de code</string>
+    <string name="hello_world">Bonjour le monde</string>
+</resources>

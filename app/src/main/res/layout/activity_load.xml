@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:components="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb252">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:weightSum="1"
+        android:background="@android:color/transparent"
+        android:baselineAligned="false">
+
+        <com.example.administrator.pugify.tools.GIFView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ld_gif"
+            components:src="@drawable/pug"
+            android:layout_gravity="center_horizontal|top" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_gravity="bottom"
+        android:background="#303030">
+
+        <LinearLayout
+            android:padding="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:layout_weight="0.04"
+            android:background="@drawable/top_border_background_heavy"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="223dp"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:id="@+id/ld_signin"
+                android:onClick="signIn"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="223dp"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:id="@+id/ld_login"
+                android:onClick="logIn"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent">
+
+            <Button
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:text="Log in with Facebook"
+                android:id="@+id/ld_facebook"
+                android:onClick="profile"
+                android:layout_gravity="bottom|center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

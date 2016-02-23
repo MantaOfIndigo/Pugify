@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pugify</string>
+
+    <string name="edit_message">Enter a title</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Pugify Main</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_code_message">Code View</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnCamera">Use Camera</string>
+    <string name="capture">Capture</string>
+    <string name="alertTitle">Attenzione</string>
+    <string name="validCredentials">Devi inserire delle credenziali valide</string>
+    <string name="profile_city">Pug city</string>
+    <string name="tut_text_page_1">Inserisci le credenziali per il tuo carlino. Verranno utilizzate tutte e tre per futuri login</string>
+    <string name="sg_ownerCredDesc">Inserisci solamente nome e cognome per identificarti come padrone</string>
+    <string name="sg_ownerOrVisit_title">Possiedi un carlino?</string>
+    <string name="sg_ownerOrVisit_body">Se non possiedi un carlino potrai iscriverti come visitatore e avere la possibilità di apprezzare i cani che popolano questo Social Network. Altrimenti clicca sul carlino e vai avanti</string>
+    <string name="profile_name">name</string>
+    <string name="preference_user_name">currentusername</string>
+</resources>
